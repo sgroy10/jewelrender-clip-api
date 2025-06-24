@@ -1,17 +1,14 @@
 {
   "name": "jewelrender-clip-api",
   "version": "1.0.0",
-  "main": "index.cjs",
-  "type": "commonjs",
+  "type": "module",
+  "main": "index.mjs",
   "scripts": {
-    "start": "node index.cjs"
+    "start": "node index.mjs"
   },
   "dependencies": {
     "@xenova/transformers": "^2.15.1",
     "express": "^4.18.2",
     "cors": "^2.8.5"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }
