@@ -1,7 +1,6 @@
 {
   "name": "jewelrender-clip-api",
   "version": "1.0.0",
-  "description": "CLIP vector API for JewelRender",
   "main": "index.cjs",
   "type": "module",
   "scripts": {
@@ -9,7 +8,7 @@
   },
   "dependencies": {
     "@xenova/transformers": "^2.15.1",
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }
